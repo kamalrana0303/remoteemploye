@@ -1,0 +1,17 @@
+td{
+    border:1px solid black;
+}
+table{
+    border:1px solid black;
+}
+thead{
+    border:1px solid black;
+}
+.danger{
+    color:red;
+    font-weight: bold;
+}
+.success{
+    color:green;
+    font-weight: bold;
+}

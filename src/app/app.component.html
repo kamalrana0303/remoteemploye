@@ -1,0 +1,13 @@
+ <div style="padding:5px;">
+    <ul class='nav nav-tabs'>
+        <li><a routerLink='employee'>Employee</a></li>
+        <li><a routerLink='employees'>Employee-list</a></li>    
+    </ul>
+</div>
+<span>Enter the title</span><input [(ngModel)]='apptitle'>
+<app-other [title]='apptitle'></app-other>
+<h1>{{pageHeader}}</h1>
+<router-outlet></router-outlet>
+    
+
+
